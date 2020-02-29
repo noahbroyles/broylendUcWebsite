@@ -91,3 +91,13 @@ blockquote {
     padding: 0px 20px 0px 20px;
     font-style: italic;
 }
+
+figure {
+    margin-left: 20%;
+}
+
+figcaption {
+    font-size: 9pt;
+    font-style: italic;
+    text-align: center;
+}
