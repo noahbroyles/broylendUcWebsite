@@ -96,6 +96,10 @@ figure {
     width: 100%;
 }
 
+figure img {
+    margin-left: 20%;
+}
+
 figcaption {
     font-size: 9pt;
     font-style: italic;
