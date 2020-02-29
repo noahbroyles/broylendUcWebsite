@@ -105,3 +105,8 @@ figcaption {
     font-style: italic;
     text-align: center;
 }
+
+ul.circle {
+    list-style-type: disc;
+    padding-left: 30px;
+}
