@@ -107,13 +107,17 @@ figcaption {
 }
 
 .termsList {
-    line-height: 1.2em;
     padding-left: 30px;
 }
 
-dd {
+.termsList p {
     font-size: 12pt;
+    margin-top: -5px;
     margin-bottom: 5px;
+}
+
+.termsList li {
+    font-weight: bold;
 }
 
 .indent {
