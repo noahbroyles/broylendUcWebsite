@@ -111,6 +111,16 @@ figcaption {
     padding-left: 30px;
 }
 
+dd {
+    font-size: 12pt;
+    margin-bottom: 5px;
+}
+
 .indent {
     margin-left: 3%;
+}
+
+.ulList {
+    list-style-type: circle;
+    margin-left: 30px;
 }
