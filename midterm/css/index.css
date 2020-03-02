@@ -107,7 +107,7 @@ figcaption {
 }
 
 .termsList {
-    list-style-type: disc;
+    line-height: 1.2em;
     padding-left: 30px;
 }
 
