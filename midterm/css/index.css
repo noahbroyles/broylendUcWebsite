@@ -106,7 +106,7 @@ figcaption {
     text-align: center;
 }
 
-ul.circle {
+.termsList {
     list-style-type: disc;
     padding-left: 30px;
 }
