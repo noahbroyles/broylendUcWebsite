@@ -15,7 +15,7 @@ body {
     font-size: 13pt;
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(70, 69, 69);
-    background-color: rgb(221, 212, 201);
+    background-color: #B1B3A8
 }
 
 h1 {
@@ -45,7 +45,7 @@ p {
 }
 
 a {
-    color: red;
+    color: #6E1A14;
     text-decoration: none;
     transition-property: color;
     transition-duration: 1s;
@@ -58,8 +58,8 @@ ul {
 }
 
 a:hover {
-    color: rgb(60, 128, 111);
-    border-bottom: blue 2px solid;
+    color: #7F4844;
+    border-bottom: #407BB8 2px solid;
 }
 
 a:visited {
@@ -67,7 +67,7 @@ a:visited {
 }
 
 a.different {
-    color: purple;
+    color: #5F6629;
 }
 
 footer {
