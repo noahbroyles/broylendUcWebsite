@@ -54,11 +54,16 @@ p {
 }
 
 a {
-    color: #6E1A14;
+    color: rgb(143, 29, 21);
     text-decoration: none;
     transition-property: color;
     transition-duration: 1s;
     font-size: 13pt;
+}
+
+a:hover {
+    color: rgb(212, 72, 62);
+    border-bottom: #407BB8 2px solid;
 }
 
 ul {
@@ -66,10 +71,7 @@ ul {
     padding-left: 0;
 }
 
-a:hover {
-    color: #7F4844;
-    border-bottom: #407BB8 2px solid;
-}
+
 
 a:visited {
     text-decoration: none;
@@ -77,6 +79,12 @@ a:visited {
 
 a.different {
     color: #5F6629;
+    transition-property: color;
+    transition-duration: 1s;
+}
+
+a.different:hover {
+    color: darkgreen;
 }
 
 footer {
