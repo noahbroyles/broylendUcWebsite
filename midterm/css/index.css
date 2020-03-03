@@ -14,14 +14,23 @@ html {
 body {
     font-size: 13pt;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(70, 69, 69);
-    background-color: #B1B3A8
+    color: rgb(197, 176, 176);
+    background-color: rgb(20, 20, 20)
 }
 
 h1 {
     text-align: center;
     font-size: 30pt;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+h3 {
+    color: white;
 }
 
 main {
