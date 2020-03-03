@@ -27,6 +27,7 @@ main {
 
 nav a {
     line-height: 1.5em; /* I don't want my Links right on top of each other */
+    margin-left: 15px;
 }
 
 nav {

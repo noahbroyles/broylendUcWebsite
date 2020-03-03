@@ -27,6 +27,8 @@ main {
 
 nav a {
     line-height: 1.5em; /* I don't want my Links right on top of each other */
+    text-align: center;
+    margin-left: 15px;
 }
 
 nav {
@@ -145,7 +147,7 @@ code {
     }
 
     nav {
-        top: 10%;
+        top: 80px;
         float: left;
         width: 20%;
         display: block;
@@ -158,5 +160,8 @@ code {
     }
     h2 {
         font-size: 20pt;
+    }
+    img {
+        margin-left:25%;
     }
 }
