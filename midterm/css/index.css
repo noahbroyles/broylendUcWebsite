@@ -46,7 +46,7 @@ nav a {
 nav {
     float: left;
     width: 20%;
-    position: absolute;
+    position: fixed;
 }
 
 p {
