@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+header {
+    display: block;
+}
+
 html {
     scroll-behavior: smooth;
     min-width: 98%;
