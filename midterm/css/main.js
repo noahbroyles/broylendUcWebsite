@@ -1,8 +1,9 @@
-function toggleMenu() {
-  var x = document.getElementById("nav");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
+function toggleButton(x) {
+    x.classList.toggle("change");
+    var links = document.getElementById("links");
+    if (links.style.display === "block") {
+        links.style.display = "none";
+    } else {
+        links.style.display = "block";
+    }
 }

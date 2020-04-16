@@ -2,8 +2,8 @@
     box-sizing: border-box;
 }
 
-header {
-    display: block;
+header, nav, main, footer, figure, figcaption {
+	display: block;
 }
 
 html {
@@ -148,14 +148,14 @@ figcaption {
     margin-left: 3%;
 }
 
-#nav {
+#topbar {
     display: none;
     overflow: hidden;
     background-color: #333;
     position: relative;
 }
 
-#nav a {
+#topbar a {
     float: left;
     color: white;
     padding: 14px 16px;
@@ -163,22 +163,49 @@ figcaption {
     font-size: 17px;
 }
 
-#nav a.icon {
-    float: right;
-}
-
-#nav a:hover {
+#topbar a:hover {
     background-color: #ddd;
     color: black;
 }
 
 .active {
-    background-color: #4CAF50;
+    background-color: rgb(143, 29, 21);
     color: white;
 }
 
+#menuBox {
+    display: block;
+    float: right;
+}
+
+.menubutton {
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 3px;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: rgb(143, 29, 21);
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+
 @media screen and (min-width: 320px) {
-    #nav {
+    #topbar {
         display: block;
     }
     body {
@@ -202,6 +229,9 @@ figcaption {
         float: none;
         z-index: 1000000;
         background-color: aliceblue;
+    }
+    #links {
+        display: none;
     }
     nav ul li{
         display: inline-block;
