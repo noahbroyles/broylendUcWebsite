@@ -164,7 +164,7 @@ figcaption {
 }
 
 #topbar a:hover {
-    background-color: #ddd;
+    background-color: #5F6629;
     color: black;
 }
 
@@ -251,5 +251,9 @@ figcaption {
     }
     p {
         line-height: 1.3em;
+        text-align: justify;
+    }
+    blockquote {
+        padding: 0;
     }
 }
