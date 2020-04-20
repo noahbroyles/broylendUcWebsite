@@ -198,6 +198,9 @@ figcaption {
 }
 
 @media screen and (min-width: 320px) {
+    a:hover {
+        border-bottom: none;
+    }
     #topbar {
         display: block;
     }
@@ -272,6 +275,9 @@ figcaption {
 }
 
 @media screen and (min-width: 1440px) {
+    a:hover {
+        border-bottom: #407BB8 2px solid;
+    }
     #topbar {
         display: none;
     }
