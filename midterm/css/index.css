@@ -130,9 +130,11 @@ figcaption {
     line-height: normal;
 }
 
-.termsList li {
+.termsList h4 {
     font-weight: bold;
     color: white;
+    padding: 0;
+    margin-bottom: 0;
 }
 
 .indent {
@@ -196,6 +198,9 @@ figcaption {
 }
 
 @media screen and (min-width: 320px) {
+    a:hover {
+        border-bottom: none;
+    }
     #topbar {
         display: block;
     }
@@ -270,6 +275,9 @@ figcaption {
 }
 
 @media screen and (min-width: 1440px) {
+    a:hover {
+        border-bottom: #407BB8 2px solid;
+    }
     #topbar {
         display: none;
     }
@@ -308,8 +316,7 @@ figcaption {
         width: 55%;
         margin-left: 22.5%;
     }
-    .termsList li {
+    .termsList h4 {
         font-size: 15pt;
-        line-height: 1.3em;
     }
 }
