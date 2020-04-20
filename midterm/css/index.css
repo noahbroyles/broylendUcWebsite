@@ -25,17 +25,8 @@ h1 {
     color: white;
 }
 
-h2 {
+h2, h3 {
     color: white;
-}
-
-h3 {
-    color: white;
-}
-
-main {
-    margin-left: 20%;
-    margin-right: 20%;
 }
 
 nav a {
@@ -190,19 +181,19 @@ figcaption {
     background-color: rgb(143, 29, 21);
     margin: 6px 0;
     transition: 0.4s;
-  }
+}
   
-  .change .bar1 {
+.change .bar1 {
     -webkit-transform: rotate(-45deg) translate(-9px, 6px);
     transform: rotate(-45deg) translate(-9px, 6px);
-  }
+}
   
-  .change .bar2 {opacity: 0;}
+.change .bar2 {opacity: 0;}
   
-  .change .bar3 {
+.change .bar3 {
     -webkit-transform: rotate(45deg) translate(-8px, -8px);
     transform: rotate(45deg) translate(-8px, -8px);
-  }
+}
 
 @media screen and (min-width: 320px) {
     #topbar {
@@ -228,7 +219,6 @@ figcaption {
         width: 100%;
         float: none;
         z-index: 1000000;
-        background-color: aliceblue;
     }
     #links {
         display: none;
@@ -254,5 +244,72 @@ figcaption {
     }
     blockquote {
         padding: 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    h1 {
+        font-size: 23pt;
+    }
+    h2 {
+        font-size: 17pt;
+    }
+    p {
+        font-size: 13pt;
+    }
+    .mainimg {
+        width: 80%;
+        margin-left: 10%;
+    }
+    #links {
+        display: block;
+    }
+    #menuBox {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    #topbar {
+        display: none;
+    }
+    nav {
+        display: block;
+    }
+    nav ul li{
+        display:block;
+        font-size: 13pt;
+        text-align: left;
+    }
+    h2 {
+        text-align: left;
+    }
+    .mainimg {
+        width: 65%;
+        margin-left: 17.5%;
+    }
+    main {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
+
+@media screen and (min-width: 1900px) {
+    body {
+        font-size: 13pt;
+    }
+    nav {
+        width: 20%;
+    }
+    h3 {
+        font-size: 16pt;
+    }
+    .mainimg {
+        width: 55%;
+        margin-left: 22.5%;
+    }
+    .termsList li {
+        font-size: 15pt;
+        line-height: 1.3em;
     }
 }
