@@ -7,8 +7,11 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <script src="css/main.js"></script>
+    <script src="../scripts/brython.js"></script>
+    <script src="../scripts/brython_stdlib.js"></script>
 </head>
-<body>
+<body onload="brython();">
+    <script type="text/python" src="../scripts/clock.py"></script>
     <nav>
         <h2>Navigation:</h2>
         <ul>
@@ -42,7 +45,15 @@
             I used two different fonts for headers and main content, a few main colors, black, white, red, and green for the link to the current page. I like the smooth dark look of the site overall with the links standing out in a dark red.
             I like the dark theme because it is easy on your eyes when you are reading and is not just boring black on white. It is also low-light and easy to look at before going to sleep.
         </p>
+        <br>
+        <canvas width="250" height="250" id="clock">
+            <i>sorry, Brython can't make the demo work on your browser ; <br>check if Javascript is turned on
+            <br><div id="navig_zone"></div></i>
+        </canvas>
     </main>
-
+    <script type="text/python">
+        import supermath
+        print(supermath.average([42, 42, 69]))
+    </script>
 </body>
 </html>
