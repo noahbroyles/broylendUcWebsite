@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Different Operating Systems | Noah Broyles | Homepages.uc.edu/~broylend</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="css/main.js"></script>
+</head>
+<body>
+    <nav id="nav">
+        <h2>Navigation:</h2>
+        <ul>
+            <li><a class="different" href="index.html">Main Page</a></li>
+            <li><a href="macos.html">MacOS</a></li>
+            <li><a href="linux.html">Ubuntu Linux</a></li>
+            <li><a href="windows10.html">Windows 10</a></li>
+            <li><a href="about.html">About this Site</a></li>
+        </ul>
+    </nav>
+    <div id="topbar">
+        <a class="active" href="index.html">Home</a>
+        <div id="links">
+            <a href="macos.html">MacOS</a>
+            <a href="linux.html">Ubuntu</a>
+            <a href="windows10.html">Windows 10</a>
+            <a href="about.html">About</a>        
+        </div>
+        <div id="menuBox">
+            <div class="menubutton" onclick="toggleButton(this);">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+        </div>
+    </div>
+    <header>
+        <h1>Different Operating Systems</h1>
+    </header>
+
+    <main>    
+        <figure>
+            <img class="mainimg" src="https://www.howtogeek.com/wp-content/uploads/2011/02/banner6.png" alt="Operating systems">
+            <figcaption>howtogeek.com</figcaption>
+        </figure>
+        
+        <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I will be discussing three fundamentally different operating systems in this project, <a href="macos.html">MacOS</a>, <a href="linux.html">Ubuntu Linux</a>, and <a href="windows10.html">Windows 10</a>.
+            I will discuss the differences between them, pros and cons of each of them, popularity of each, features that they offer, <i>etc.</i> On this page I will give a general overview of all three.
+        </p>
+        <br>
+        <h2>What is an Operating System?</h2>
+        <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;An operating system (or OS) is the base underlying software that interacts with the hardware in your computer to get things done. According to <a href="https://www.howtogeek.com/361572/what-is-an-operating-system/"> How&#8209;To&nbsp;Geek</a>, an operating
+            system is:
+            <blockquote>
+                ...the primary software that manages all the hardware and other software on a computer. The operating system, also known as an “OS,” interfaces with the computer’s hardware and provides services that applications can use.
+            </blockquote>
+            Logically therefore, different operating systems interact with the hardware in different ways, and provide different services. Not all OS's are created equal.
+        <hr>
+        <br>
+        <h2>OS Comparisons:</h2>
+        <div class="indent">
+            <h3>Kernel</h3>
+        <p>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MacOS and Ubuntu Linux have a common ancestor, Unix. Windows 10 was not based on Linux or Unix, it was written by Microsoft and runs on their kernel, the Windows NT kernel. A kernel is the the program at the core of an operating system, that has total control of the computer's hardware.
+            It is the underlying framework for the OS.
+        </p>
+        <h3>Shell</h3>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MacOS and Ubuntu both come with a powerful CLI shell, either bash or zsh(for newer versions of MacOS), while Windows 10 uses the horribly painful DOS batch language. This makes almost all shell scripting in MacOS and Ubuntu a breeze, while scripting in Windows 10 is
+            close to impossible.
+        </p>
+        <h3>System Resources</h3>
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Windows 10 uses system resources rather heavily, while MacOS and Ubuntu do not hog extra resources when idling. This means that in a test with three computers with the same specs, MacOS and Ubuntu will outperform Windows 10 because the Windows computer will use more resources on the OS alone than MacOS and Ubuntu.</p>
+        </div>
+        
+    </main>
+</body>
+</html>

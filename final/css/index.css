@@ -1,0 +1,315 @@
+* {
+    box-sizing: border-box;
+}
+
+header, nav, main, footer, figure, figcaption {
+	display: block;
+}
+
+html {
+    scroll-behavior: smooth;
+    min-width: 98%;
+}
+
+body {
+    font-size: 13pt;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(197, 176, 176);
+    background-color: rgb(20, 20, 20)
+}
+
+h1 {
+    text-align: center;
+    font-size: 30pt;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+h2, h3 {
+    color: white;
+}
+
+nav a {
+    line-height: 1.5em; /* I don't want my Links right on top of each other */
+    margin-left: 15px;
+}
+
+nav {
+    float: left;
+    width: 20%;
+    position: fixed;
+}
+
+p {
+    line-height: 2em;
+}
+
+a {
+    color: rgb(143, 29, 21);
+    text-decoration: none;
+    transition-property: color;
+    transition-duration: 1s;
+    font-size: 13pt;
+}
+
+a:hover {
+    color: rgb(212, 72, 62);
+    border-bottom: #407BB8 2px solid;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+
+
+a:visited {
+    text-decoration: none;
+}
+
+a.different {
+    color: #5F6629;
+    transition-property: color;
+    transition-duration: 1s;
+}
+
+a.different:hover {
+    color: darkgreen;
+}
+
+footer {
+    position: fixed;
+    display: block;
+    bottom: 0px;
+}
+
+a.small {
+    font-size: 8pt;
+}
+
+small {
+    font-size: 8pt;
+}
+
+code {
+    color: black;
+    background-color: rgb(180, 175, 175);
+    border-radius: .7em;
+    padding: 1px 3px 1px 3px;
+}
+
+blockquote {
+    color: rgb(102, 102, 102);
+    padding: 0px 20px 0px 20px;
+    font-style: italic;
+}
+
+figure {
+    width: 100%;
+}
+
+.mainimg {
+    margin-left: 20%;
+}
+
+figcaption {
+    font-size: 9pt;
+    font-style: italic;
+    text-align: center;
+}
+
+.termsList {
+    padding-left: 30px;
+}
+
+.termsList p {
+    font-size: 12pt;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    line-height: normal;
+}
+
+.termsList li {
+    font-weight: bold;
+    color: white;
+}
+
+.indent {
+    margin-left: 3%;
+}
+
+#topbar {
+    display: none;
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+}
+
+#topbar a {
+    float: left;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#topbar a:hover {
+    background-color: #5F6629;
+    color: black;
+}
+
+.active {
+    background-color: rgb(143, 29, 21);
+    color: white;
+}
+
+#menuBox {
+    display: block;
+    float: right;
+}
+
+.menubutton {
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 3px;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: rgb(143, 29, 21);
+    margin: 6px 0;
+    transition: 0.4s;
+}
+  
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+  
+.change .bar2 {opacity: 0;}
+  
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+@media screen and (min-width: 320px) {
+    #topbar {
+        display: block;
+    }
+    body {
+        font-size: 12pt;
+        line-height: normal;
+    }
+    header {
+        width: 100%;
+        text-align: center;
+    }
+    h1 {
+        font-size: 20pt;
+    }
+    h2 {
+        font-size: 16pt;
+        text-align: center;
+    }
+    nav {
+        display: none;
+        width: 100%;
+        float: none;
+        z-index: 1000000;
+    }
+    #links {
+        display: none;
+    }
+    nav ul li{
+        display: inline-block;
+        font-size: 13pt;
+        text-align: center;
+    }
+    main {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    figure {
+        margin: 0;
+    }
+    .mainimg {
+        width: 100%;
+        margin-left: 0;
+    }
+    p {
+        line-height: 1.3em;
+    }
+    blockquote {
+        padding: 0;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    h1 {
+        font-size: 23pt;
+    }
+    h2 {
+        font-size: 17pt;
+    }
+    p {
+        font-size: 13pt;
+    }
+    .mainimg {
+        width: 80%;
+        margin-left: 10%;
+    }
+    #links {
+        display: block;
+    }
+    #menuBox {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    #topbar {
+        display: none;
+    }
+    nav {
+        display: block;
+    }
+    nav ul li{
+        display:block;
+        font-size: 13pt;
+        text-align: left;
+    }
+    h2 {
+        text-align: left;
+    }
+    .mainimg {
+        width: 65%;
+        margin-left: 17.5%;
+    }
+    main {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+}
+
+@media screen and (min-width: 1900px) {
+    body {
+        font-size: 13pt;
+    }
+    nav {
+        width: 20%;
+    }
+    h3 {
+        font-size: 16pt;
+    }
+    .mainimg {
+        width: 55%;
+        margin-left: 22.5%;
+    }
+    .termsList li {
+        font-size: 15pt;
+        line-height: 1.3em;
+    }
+}
