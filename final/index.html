@@ -69,7 +69,7 @@
             It is the underlying framework for the OS.
         </p>
         <h3>Shell</h3>
-        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MacOS and Ubuntu both come with a powerful CLI shell, either bash or zsh(for newer versions of MacOS), while Windows 10 uses the horribly painful DOS batch language. This makes almost all shell scripting in MacOS and Ubuntu a breeze, while scripting in Windows 10 is
+        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MacOS and Ubuntu both come with a powerful CLI shell, either bash or <a href="https://en.wikipedia.org/wiki/Z_shell">zsh</a>(for newer versions of MacOS), while Windows 10 uses the horribly painful DOS batch language. This makes almost all shell scripting in MacOS and Ubuntu a breeze, while scripting in Windows 10 is
             close to impossible.
         </p>
         <h3>System Resources</h3>
@@ -78,19 +78,28 @@
         
         <table style="width:100%">
             <tr>
-              <th>MacOS</th>
-              <th>Ubuntu</th>
-              <th>Windows 10</th>
+                <th>Operating System</th>
+                <th>Kernel</th>
+                <th>Shell</th>
+                <th>System Resources</th>
             </tr>
             <tr>
-              <td>Jill</td>
-              <td>Smith</td>
-              <td>50</td>
+                <td class="os">MacOS</td>
+                <td>Unix ✅</td>
+                <td>zsh or bash ✅</td>
+                <td>Well managed ✅</td>
             </tr>
             <tr>
-              <td>Eve</td>
-              <td>Jackson</td>
-              <td>94</td>
+                <td class="os">Ubuntu</td>
+                <td>Unix ✅</td>
+                <td>bash ✅</td>
+                <td>Well managed ✅</td>
+            </tr>
+            <tr>
+                <td class="os">Windows 10</td>
+                <td>Windows NT kernel ❌</td>
+                <td>DOS Batch ❌</td>
+                <td>Poorly managed ❌</td>
             </tr>
         </table>
 
