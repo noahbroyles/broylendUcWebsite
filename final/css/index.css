@@ -92,13 +92,6 @@ small {
     font-size: 8pt;
 }
 
-code {
-    color: black;
-    background-color: rgb(180, 175, 175);
-    border-radius: .7em;
-    padding: 1px 3px 1px 3px;
-}
-
 blockquote {
     color: rgb(102, 102, 102);
     padding: 0px 20px 0px 20px;
@@ -195,6 +188,17 @@ figcaption {
 .change .bar3 {
     -webkit-transform: rotate(45deg) translate(-8px, -8px);
     transform: rotate(45deg) translate(-8px, -8px);
+}
+
+table{
+    border: 2px dashed white;
+} 
+
+td {
+    border: 1px solid red;
+}
+th {
+    border: 1px solid white;
 }
 
 @media screen and (min-width: 320px) {
