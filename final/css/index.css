@@ -219,7 +219,52 @@ th {
     color: azure;
 }
 
+
+input[type="text"], input[type="email"] {
+    width: 20%;
+    padding: 8px 12px;
+    margin: 8px 0;
+    border-radius: 1em;
+}
+
+input[type="text"]:focus, input[type="email"]:focus {
+    background-color: wheat;
+}
+
+input[type="submit"] {
+    color: rgb(143, 29, 21);
+    font-size: 12pt;
+    padding: 2px 4px 2px 4px;
+    border-radius: 1.2em;
+    transition-property: all;
+    transition-duration: 1.5s;
+}
+
+input[type="submit"]:hover {
+    color: white;
+    background-color: rgb(143, 29, 21);
+    cursor: pointer;
+}
+
+textarea {
+    padding: 8px 12px;
+    margin: 8px 0;
+    border-radius: 1em;
+    width: 20%;
+}
+
+textarea:focus {
+    background-color: wheat;
+}
+
 @media screen and (min-width: 320px) {
+    input[type="text"], input[type="email"] {
+        width: 100%;
+        padding: 4px 6px;
+    }
+    textarea {
+        width: 100%;
+    }
     a:hover {
         border-bottom: none;
     }
@@ -275,6 +320,13 @@ th {
 }
 
 @media screen and (min-width: 768px) {
+    input[type="text"], input[type="email"] {
+        width: 50%;
+        padding: 7px 9px;
+    }
+    textarea {
+        width: 50%;
+    }
     h1 {
         font-size: 23pt;
     }
@@ -301,6 +353,13 @@ th {
 }
 
 @media screen and (min-width: 1440px) {
+    input[type="text"], input[type="email"] {
+        width: 30%;
+        padding: 6px 10px;
+    }
+    textarea {
+        width: 40%;
+    }
     a:hover {
         border-bottom: #407BB8 2px solid;
     }
@@ -336,6 +395,13 @@ th {
 }
 
 @media screen and (min-width: 1900px) {
+    input[type="text"], input[type="email"] {
+        width: 20%;
+        padding: 8px 12px;
+    }
+    textarea {
+        width: 30%;
+    }
     body {
         font-size: 13pt;
     }
