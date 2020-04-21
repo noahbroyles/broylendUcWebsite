@@ -197,7 +197,7 @@ figcaption {
     transform: rotate(45deg) translate(-8px, -8px);
 }
 
-@media screen and (min-width: 320px) {
+@media only screen and (min-width: 320px) {
     a:hover {
         border-bottom: none;
     }
@@ -252,7 +252,7 @@ figcaption {
     }
 }
 
-@media screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) {
     h1 {
         font-size: 23pt;
     }
@@ -272,9 +272,13 @@ figcaption {
     #menuBox {
         display: none;
     }
+    main {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
 }
 
-@media screen and (min-width: 1440px) {
+@media only screen and (min-width: 1440px) {
     a:hover {
         border-bottom: #407BB8 2px solid;
     }
@@ -302,7 +306,7 @@ figcaption {
     }
 }
 
-@media screen and (min-width: 1900px) {
+@media only screen and (min-width: 1900px) {
     body {
         font-size: 13pt;
     }
