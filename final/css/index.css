@@ -197,7 +197,7 @@ figcaption {
     transform: rotate(45deg) translate(-8px, -8px);
 }
 
-@media only screen and (min-width: 320px) {
+@media screen and (min-width: 320px) {
     a:hover {
         border-bottom: none;
     }
@@ -252,7 +252,7 @@ figcaption {
     }
 }
 
-@media only screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {
     h1 {
         font-size: 23pt;
     }
@@ -263,8 +263,8 @@ figcaption {
         font-size: 13pt;
     }
     .mainimg {
-        width: 80%;
-        margin-left: 10%;
+        width: 75%;
+        margin-left: 12.5%;
     }
     #links {
         display: block;
@@ -278,7 +278,7 @@ figcaption {
     }
 }
 
-@media only screen and (min-width: 1440px) {
+@media screen and (min-width: 1440px) {
     a:hover {
         border-bottom: #407BB8 2px solid;
     }
@@ -306,7 +306,14 @@ figcaption {
     }
 }
 
-@media only screen and (min-width: 1900px) {
+@media screen and (min-width: 1024px) {
+    .mainimg {
+        width: 60%;
+        margin-left: 20%;
+    }
+}
+
+@media screen and (min-width: 1900px) {
     body {
         font-size: 13pt;
     }
