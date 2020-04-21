@@ -221,8 +221,6 @@ th {
 
 
 input[type="text"], input[type="email"] {
-    width: 20%;
-    padding: 8px 12px;
     margin: 8px 0;
     border-radius: 1em;
 }
@@ -259,11 +257,14 @@ textarea:focus {
 
 @media screen and (min-width: 320px) {
     input[type="text"], input[type="email"] {
-        width: 100%;
+        width: 80%;
         padding: 4px 6px;
     }
     textarea {
-        width: 100%;
+        width: 80%;
+    }
+    label {
+        padding: 0;
     }
     a:hover {
         border-bottom: none;
@@ -350,11 +351,14 @@ textarea:focus {
         margin-left: 5%;
         margin-right: 5%;
     }
+    label {
+        padding-left: 10px;
+    }
 }
 
 @media screen and (min-width: 1440px) {
     input[type="text"], input[type="email"] {
-        width: 30%;
+        width: 25%;
         padding: 6px 10px;
     }
     textarea {

@@ -7,3 +7,13 @@ function toggleButton(x) {
         links.style.display = "block";
     }
 }
+
+function submitted() {
+    var name = document.getElementById("name");
+    var email = document.getElementById("email");
+    var comment = document.getElementById("comment");
+    alert("FORM SUBMITTED\n\nName: " + name.value + "\nEmail: " + email.value + "\nComment: " + comment.value);
+    name.value = "";
+    email.value = "";
+    comment.value = "";
+}
