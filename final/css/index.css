@@ -191,14 +191,32 @@ figcaption {
 }
 
 table{
-    border: 2px dashed white;
+    border: 2px solid white;
+    border-collapse: collapse;
 } 
 
-td {
-    border: 1px solid #5F6629;
+td.os {
+    font-weight: bold;
+    color: white;
+    text-align: left;
+    padding-left: 3px;
 }
-th {
+
+td {
     border: 1px solid white;
+    text-align: center;
+    padding: 4px 0 4px 0;
+}
+
+tr {
+    border: 1px solid white;
+}
+
+th {
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    padding: 5px 0 5px 0;
+    color: azure;
 }
 
 @media screen and (min-width: 320px) {
