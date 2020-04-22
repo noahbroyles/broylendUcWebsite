@@ -27,6 +27,11 @@ h3 {
     color: white;
 }
 
+code {
+    background-color: rgb(167, 167, 167);
+    border-radius: 2em;
+}
+
 /* The side navigation menu */
 .sidenav {
     height: 100%; /* 100% Full-height */
