@@ -261,6 +261,10 @@ textarea:focus {
     position: fixed;
 }
 
+#thirdCol a {
+    display: block;
+}
+
 @media screen and (min-width: 320px) {
     input[type="text"], input[type="email"] {
         width: 80%;
@@ -324,6 +328,12 @@ textarea:focus {
     blockquote {
         padding: 0;
     }
+    #thirdCol {
+        position: relative;
+        clear: both;
+        width: 100%;
+        margin: 0;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -360,6 +370,15 @@ textarea:focus {
     label {
         padding-left: 10px;
     }
+
+    #thirdCol a {
+        display: inline-block;
+        margin-right: 10px;
+    }
+    #thirdCol a:hover {
+        border-bottom: none;
+    }
+    
 }
 
 @media screen and (min-width: 1440px) {
@@ -395,6 +414,19 @@ textarea:focus {
         margin-left: 20%;
         margin-right: 20%;
     }
+
+    #thirdCol {
+        top: 5%;
+        margin-left: 80%;
+        width: 20%;
+        position: fixed;
+        text-align: left;
+    }
+
+    #thirdCol a {
+        display: block;
+    }
+
 }
 
 @media screen and (min-width: 1024px) {
