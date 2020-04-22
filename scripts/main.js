@@ -8,6 +8,20 @@ function toggleButton(x) {
     }
 }
 
+
+function openNav() {
+    var nav = document.getElementById("mySidenav");
+    if (nav.style.width == "300px") {
+        nav.style.width = "0px";
+    } else {
+        nav.style.width = "300px";
+    }
+}
+  
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+}
+
 function submitted() {
     var name = document.getElementById("name");
     var email = document.getElementById("email");
