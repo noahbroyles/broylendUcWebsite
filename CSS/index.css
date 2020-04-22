@@ -1,5 +1,14 @@
+body {
+    margin-left: 2px;
+    background-color: antiquewhite;
+}
+
+hr {
+    border-top: 2px solid #111;
+}
 .h1 {
     color: brown;
+    border-bottom: 1px solid red;
 }
 
 img {
@@ -21,7 +30,7 @@ h3 {
 /* The side navigation menu */
 .sidenav {
     height: 100%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
+    width: 0px; /* 0 width - change this with JavaScript */
     position: fixed;
     z-index: 1;
     top: 0;
@@ -43,9 +52,39 @@ h3 {
 
 button {
     border-radius: 2em;
+    color: darkgreen;
+}
+
+button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.4s;
+}
+  
+button span:after {
+    content: '\00AB';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: -6px;
+    transition: 0.4s;
+}
+  
+button:hover span {
+    padding-left: 10px;
+}
+  
+button:hover span:after {
+    opacity: 1;
+    left: 0;
 }
   
 @media screen and (max-height: 450px) {
-    .sidenav {padding-top: 15px;}
-    .sidenav a {font-size: 18px;}
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
 }
