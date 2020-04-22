@@ -63,7 +63,6 @@ ul {
 }
 
 
-
 a:visited {
     text-decoration: none;
 }
@@ -253,6 +252,13 @@ textarea {
 
 textarea:focus {
     background-color: wheat;
+}
+
+#thirdCol {
+    top: 5%;
+    margin-left: 80%;
+    width: 20%;
+    position: fixed;
 }
 
 @media screen and (min-width: 320px) {
