@@ -1,0 +1,104 @@
+body {
+    margin-left: 2px;
+    background-color: #faebd7;
+    min-height: 100vh;
+}
+
+hr {
+    border-top: 2px solid #111;
+}
+
+.h1 {
+    color: brown;
+    border-bottom: 1px solid red;
+}
+
+img {
+    margin: auto;
+}
+
+a {
+    color: #6cbd77;
+}
+
+p {
+    font-size: 13pt;
+}
+
+h3 {
+    color: #fff;
+    margin-left: 3px;
+}
+
+code {
+    background-color: #a7a7a7;
+    border-radius: 2em;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: .2s;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+button {
+    border-radius: 2em;
+    color: #006400;
+}
+
+button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: .4s;
+}
+
+button span:after {
+    content: '\00AB';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: -6px;
+    transition: .4s;
+}
+
+button:hover span {
+    padding-left: 10px;
+}
+
+button:hover span:after {
+    opacity: 1;
+    left: 0;
+}
+
+@media screen and (max-height:450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    footer {
+        position: fixed;
+        bottom: 0;
+    }
+}
